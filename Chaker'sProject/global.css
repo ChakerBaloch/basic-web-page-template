@@ -22,6 +22,9 @@ body{
 #top-nav{
     background-color: #ba6e6e;
     margin: 10px;
+    position: fixed;
+    padding-left: 81%;
+   
 }
 /* style */
 #top-nav ul{
@@ -31,6 +34,7 @@ body{
 #top-nav ul{
     display: flex;
     justify-content: right;
+    
 }
 /* hovering time and text color */
  #top-nav ul li a{
@@ -38,6 +42,8 @@ body{
     color: white;
     padding: 1.2em;
     transition: all 0.5s; 
+    
+   
 }
 /* hover plus color */
 #top-nav ul li a:hover{
@@ -61,11 +67,14 @@ h1{
   padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
 }
 /* Image1 */
-
+#img2{
+    height: 100%;
+    width: 100%;
+}
 
 
 
