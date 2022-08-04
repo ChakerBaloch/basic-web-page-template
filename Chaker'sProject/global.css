@@ -23,7 +23,7 @@ body{
     background-color: #ba6e6e;
     margin: 10px;
     position: fixed;
-    padding-left: 81%;
+    padding-left: 75%;
    
 }
 /* style */
@@ -40,7 +40,7 @@ body{
  #top-nav ul li a{
     display: block;
     color: white;
-    padding: 1.2em;
+    padding: 20px;
     transition: all 0.5s; 
     
    
@@ -59,16 +59,17 @@ body{
 
 /* Title */
 h1{
-  background-color:#6a79a0;
+  
   color:white;
-  font-size: 20px;
-  margin-left: 30%;
-  margin-right: 30%;
+  font-size: 35px;
+  margin-left: 150px;
+  /* margin-right: 40%; */
   padding-top: 20px;
-  padding-bottom: 20px;
+  /* padding-bottom: 0px; */
   display: flex;
   justify-content: left;
   align-items: left;
+  position: fixed;
 }
 /* Image1 */
 #img2{
@@ -112,6 +113,7 @@ footer nav ul li a:hover{
 footer nav ul li {
     padding: 15px;
     margin-left: 40px;
+    
     
 }
 
