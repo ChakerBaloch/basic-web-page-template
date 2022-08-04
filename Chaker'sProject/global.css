@@ -9,10 +9,6 @@
     margin: 0;
     padding: 0;
 }
-/* html{
-    width: 100%;
-    height: 100%;
-} */
 
 /* body */
 body{
@@ -20,36 +16,54 @@ body{
     font-size: 18px;
     font-weight: 400;
     background-color:white;
-    text-decoration: none;
+    text-decoration: none; 
 }
 /* Head Nav Bar */
 #top-nav{
-    background-color: #AE7373;
+    background-color: #ba6e6e;
     margin: 10px;
 }
+/* style */
 #top-nav ul{
-    list-style: none;
-    
+    list-style: none; 
 }
+/* display */
 #top-nav ul{
     display: flex;
     justify-content: right;
 }
-
+/* hovering time and text color */
  #top-nav ul li a{
     display: block;
-    color: black;
+    color: white;
     padding: 1.2em;
     transition: all 0.5s; 
-
 }
+/* hover plus color */
 #top-nav ul li a:hover{
     background-color: rgb(194, 197, 126);
+}
+/* Title of the page */
+#top-nav h1{
+    float: left;
+    text-align: left;
 }
 
 /* Main */
 
-
+/* Title */
+h1{
+  background-color:#6a79a0;
+  color:white;
+  font-size: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 
@@ -58,12 +72,13 @@ body{
 
 /* footer */
 footer{
-    background-color:#679A75;
+    background-color:#6fc587;
  
 }
 footer ul{
     list-style: none;
 }
+/* fixing footer at the bottom */
 footer {
     display: grid;
     grid-template-columns:auto 1fr auto ;
@@ -71,22 +86,53 @@ footer {
     bottom: 0; 
     width: 98.5%;  
     position: fixed;
-    height: 100px;
+    height: 200px;
 }
+/* coloring the text */
+footer nav a{
+    display: block;
+    color:white;
+}
+/* hovering footer */
 footer nav ul li a:hover{
     display: block;
-    color: rgb(157, 168, 157);
+    color: rgb(70, 65, 146);
     transition: all 0.5s;  
-
+}
+footer nav ul li {
+    padding: 15px;
+    margin-left: 40px;
+    
 }
 
-/* footer{
-    position: fixed;
-    padding: 10px;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
+/* Social links */
+footer #social li {
+    padding-right: 40px;
+    padding-top: 25px;
+    font-size: 25px; 
     
-} */
+} 
+footer #social ul{
+    list-style: none;
+}
+footer #social ul{
+    display: grid;
+    justify-content: right;
+}
+/* grid display and hovering */
+footer #social ul li{
+    display:grid ;
+    justify-content: center;
+    align-items: center;
+}
+footer #social ul a:hover{
+    display: block;
+    color: rgb(190, 110, 67);
+    transition: all 0.5s;  
+}
+
+
+
+
 
 
